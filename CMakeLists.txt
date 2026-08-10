@@ -12,5 +12,8 @@ find_package(CUDAToolkit REQUIRED)
 add_executable(mpi_pair_latency mpi_pair_latency.cpp)
 target_link_libraries(mpi_pair_latency PRIVATE MPI::MPI_CXX)
 
+add_executable(tcp_pair_latency tcp_pair_latency.cpp)
+target_link_libraries(tcp_pair_latency PRIVATE MPI::MPI_CXX)
+
 add_executable(mpi_gpu_transfer mpi_gpu_transfer.cu)
 target_link_libraries(mpi_gpu_transfer PRIVATE MPI::MPI_CXX CUDA::cudart)
