@@ -17,6 +17,9 @@
  *   - Rank 0 gathers all endpoint IPs and placement info.
  *   - Pair scheduling is serialised (same sequential i,j loop as MPI benchmark).
  *   - MPI_Bcast broadcasts the active pair; all other ranks wait at a barrier.
+ *   - The server rank binds an *ephemeral* TCP port (port 0) and announces the
+ *     actual port to the client rank over MPI. This avoids fixed-port collisions
+ *     on shared/oversubscribed devel nodes.
  *
  * Resumable / checkpointed execution:
  *   After completing each pair, rank 0 writes the next (i,j) to a state file
@@ -63,7 +66,6 @@
 // ---------------------------------------------------------------------------
 // Constants
 // ---------------------------------------------------------------------------
-static constexpr int    DEFAULT_BASE_PORT   = 50000;
 static constexpr int    MAX_RANKS           = 4096;
 static constexpr size_t DEFAULT_SMALL       = 64;
 static constexpr size_t DEFAULT_LARGE       = 4 * 1024 * 1024;
@@ -143,7 +145,6 @@ static void print_usage(const char* prog) {
               << "  -l, --large-bytes <bytes>  Bandwidth payload (default: 4194304)\n"
               << "  -w, --warmup <count>       Warmup iters per pair (default: 10)\n"
               << "  -i, --iters <count>        Timed iters per pair (default: 50)\n"
-              << "  -p, --base-port <port>     Base TCP port (default: 50000)\n"
               << "  --iface <name>             Network interface (default: ib0)\n"
               << "  --state-file <file>        Checkpoint state file (default: tcp_pair_latency.state)\n"
               << "  --resume                   Resume from state file if present\n"
@@ -179,7 +180,7 @@ struct PairStats {
 
 static PairStats measure_pair(
     int my_rank, int ri, int rj,
-    const std::string& ip_i, int port,
+    const std::string& ip_i,
     size_t small_bytes, size_t large_bytes, int warmup, int iters,
     std::vector<char>& ss, std::vector<char>& rs,
     std::vector<char>& sl, std::vector<char>& rl)
@@ -190,20 +191,42 @@ static PairStats measure_pair(
     auto t0_conn = std::chrono::high_resolution_clock::now();
 
     if (my_rank == ri) {
-        // Server
+        // Server: bind ephemeral port (0), then announce the actual port to the
+        // client over MPI. This avoids collisions on shared/oversubscribed nodes.
         int srv = socket(AF_INET, SOCK_STREAM, 0);
         int opt = 1; setsockopt(srv, SOL_SOCKET, SO_REUSEADDR, &opt, sizeof(opt));
-        struct sockaddr_in addr{}; addr.sin_family = AF_INET; addr.sin_port = htons(port); addr.sin_addr.s_addr = INADDR_ANY;
+        struct sockaddr_in addr{};
+        addr.sin_family      = AF_INET;
+        addr.sin_port        = htons(0);              // ephemeral
+        addr.sin_addr.s_addr = INADDR_ANY;
         if (bind(srv, (struct sockaddr*)&addr, sizeof(addr)) < 0) {
-            std::cerr << "[rank " << my_rank << "] bind port " << port << " failed: " << strerror(errno) << "\n";
+            std::cerr << "[rank " << my_rank << "] bind (ephemeral) failed: " << strerror(errno) << "\n";
             MPI_Abort(MPI_COMM_WORLD, 1);
         }
+        // Retrieve the actual assigned port
+        struct sockaddr_in bound{};
+        socklen_t blen = sizeof(bound);
+        if (getsockname(srv, (struct sockaddr*)&bound, &blen) < 0) {
+            std::cerr << "[rank " << my_rank << "] getsockname failed: " << strerror(errno) << "\n";
+            MPI_Abort(MPI_COMM_WORLD, 1);
+        }
+        int actual_port = ntohs(bound.sin_port);
+
+        // Announce port to client (MPI control plane)
+        MPI_Send(&actual_port, 1, MPI_INT, rj, 42, MPI_COMM_WORLD);
+
         listen(srv, LISTEN_BACKLOG);
         conn_fd = accept(srv, nullptr, nullptr);
         close(srv);
         set_nodelay(conn_fd);
     } else {
-        // Client
+        // Client: receive the server's ephemeral port over MPI, then connect.
+        int port = -1;
+        MPI_Recv(&port, 1, MPI_INT, ri, 42, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+        if (port <= 0) {
+            std::cerr << "[rank " << my_rank << "] invalid port from rank " << ri << "\n";
+            MPI_Abort(MPI_COMM_WORLD, 1);
+        }
         for (int attempt = 0; ; ++attempt) {
             conn_fd = socket(AF_INET, SOCK_STREAM, 0);
             set_nodelay(conn_fd);
@@ -211,7 +234,7 @@ static PairStats measure_pair(
             inet_pton(AF_INET, ip_i.c_str(), &addr.sin_addr);
             if (connect(conn_fd, (struct sockaddr*)&addr, sizeof(addr)) == 0) break;
             close(conn_fd); conn_fd = -1;
-            if (attempt >= 100) { std::cerr << "[rank " << my_rank << "] connect failed\n"; MPI_Abort(MPI_COMM_WORLD, 1); }
+            if (attempt >= 100) { std::cerr << "[rank " << my_rank << "] connect to " << ip_i << ":" << port << " failed\n"; MPI_Abort(MPI_COMM_WORLD, 1); }
             usleep(5000);
         }
     }
@@ -280,7 +303,6 @@ int main(int argc, char** argv) {
     size_t large_bytes        = DEFAULT_LARGE;
     int    warmup             = DEFAULT_WARMUP;
     int    iters              = DEFAULT_ITERS;
-    int    base_port          = DEFAULT_BASE_PORT;
     bool   do_resume          = false;
     double checkpoint_secs    = CHECKPOINT_SECS;
 
@@ -291,7 +313,6 @@ int main(int argc, char** argv) {
         else if ((a=="-l"||a=="--large-bytes")     && i+1<argc) large_bytes    = std::stoull(argv[++i]);
         else if ((a=="-w"||a=="--warmup")          && i+1<argc) warmup         = std::stoi(argv[++i]);
         else if ((a=="-i"||a=="--iters")           && i+1<argc) iters          = std::stoi(argv[++i]);
-        else if ((a=="-p"||a=="--base-port")       && i+1<argc) base_port      = std::stoi(argv[++i]);
         else if (a=="--iface"                      && i+1<argc) iface          = argv[++i];
         else if (a=="--state-file"                 && i+1<argc) state_file     = argv[++i];
         else if (a=="--sbatch-script"              && i+1<argc) sbatch_script  = argv[++i];
@@ -410,8 +431,7 @@ int main(int argc, char** argv) {
             MPI_Bcast(active_pair, 2, MPI_INT, 0, MPI_COMM_WORLD);
 
             if (rank == i || rank == j) {
-                int port = base_port + i*MAX_RANKS + j;
-                PairStats ps = measure_pair(rank, i, j, rank_ip(i), port,
+                PairStats ps = measure_pair(rank, i, j, rank_ip(i),
                                             small_bytes, large_bytes, warmup, iters,
                                             ss, rs, sl, rl);
                 if (rank == i) {
