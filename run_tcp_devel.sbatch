@@ -20,12 +20,13 @@
 #SBATCH --mem=238G
 #SBATCH --time=01:00:00
 #SBATCH -p devel
-#SBATCH -o tcp_devel_%j.out
+#SBATCH -o /rwthfs/rz/cluster/hpcwork/ro092286/smartsim/affinity_test/logs/tcp_devel_%j.out
 
 set -euo pipefail
 
 WORKDIR="/rwthfs/rz/cluster/hpcwork/ro092286/smartsim/affinity_test"
 cd "$WORKDIR"
+mkdir -p "${WORKDIR}/logs"
 
 source /rwthfs/rz/cluster/hpcwork/ro092286/smartsim/set_env_claix23_cuda12.4.sh
 

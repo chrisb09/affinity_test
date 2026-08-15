@@ -4,3 +4,8 @@ build/
 *.a
 *.so
 core.*
+
+# Slurm job output logs
+logs/
+*.out
+*.state
