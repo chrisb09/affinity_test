@@ -534,57 +534,75 @@ def compare_locality(mpi_csv, tcp_csv, output_prefix="transport_comparison"):
     cmp_df.to_csv(cmp_csv, index=False)
     print(f"[Success] Saved combined locality comparison to '{cmp_csv}'.")
 
-    # Bar chart: latency per tier, MPI vs TCP
+    # --- Side-by-side bar charts: MPI vs TCP per locality tier ---
     present_tiers = [t for t in TIER_ORDER
                      if t in mpi_df['locality_tier'].values or t in tcp_df['locality_tier'].values]
-    x = np.arange(len(present_tiers))
-    width = 0.35
 
-    mpi_medians = []
-    tcp_medians = []
-    mpi_p25, mpi_p75 = [], []
-    tcp_p25, tcp_p75 = [], []
-    for tier in present_tiers:
-        for medians, p25s, p75s, df in [
-            (mpi_medians, mpi_p25, mpi_p75, mpi_df),
-            (tcp_medians, tcp_p25, tcp_p75, tcp_df),
-        ]:
-            sub = df[df['locality_tier'] == tier]['latency_median_us']
+    def _pair_stats(df, metric):
+        """Return (medians, p25s, p75s) of `metric` grouped by locality tier."""
+        medians, p25s, p75s = [], [], []
+        for tier in present_tiers:
+            sub = df[df['locality_tier'] == tier][metric]
             if sub.empty:
                 medians.append(0); p25s.append(0); p75s.append(0)
             else:
                 medians.append(sub.median())
                 p25s.append(sub.quantile(0.25))
                 p75s.append(sub.quantile(0.75))
+        return medians, p25s, p75s
 
-    fig, ax = plt.subplots(figsize=(9, 5), dpi=300)
-    bars_mpi = ax.bar(x - width/2, mpi_medians, width, label='MPI (shared-mem / IB fabric)',
-                      color='steelblue', alpha=0.85)
-    bars_tcp = ax.bar(x + width/2, tcp_medians, width, label='TCP/IP (IPoIB)',
-                      color='tomato', alpha=0.85)
-
-    # IQR error bars
     def _iqr_err(medians, p25s, p75s):
         lo = [m - p for m, p in zip(medians, p25s)]
         hi = [p - m for m, p in zip(medians, p75s)]
         return [lo, hi]
 
-    ax.errorbar(x - width/2, mpi_medians, yerr=_iqr_err(mpi_medians, mpi_p25, mpi_p75),
-                fmt='none', color='black', capsize=4, linewidth=1.2)
-    ax.errorbar(x + width/2, tcp_medians, yerr=_iqr_err(tcp_medians, tcp_p25, tcp_p75),
-                fmt='none', color='black', capsize=4, linewidth=1.2)
+    def _bar_chart(metric, ylabel, out_name, title):
+        mpi_m, mpi_p25, mpi_p75 = _pair_stats(mpi_df, metric)
+        tcp_m, tcp_p25, tcp_p75 = _pair_stats(tcp_df, metric)
 
-    ax.set_xticks(x)
-    ax.set_xticklabels([TIER_LABELS[t] for t in present_tiers], fontsize=10)
-    ax.set_ylabel("Median One-Way Latency (µs)", fontsize=11)
-    ax.set_title("MPI vs TCP/IP (IPoIB) Latency by Locality Tier\n(bars = median of pair medians; error bars = IQR)",
-                 fontsize=11, weight="bold")
-    ax.legend(fontsize=10)
-    ax.grid(axis='y', linestyle=':', alpha=0.5)
-    plt.tight_layout()
-    bar_out = f"{output_prefix}_latency_comparison.png"
-    plt.savefig(bar_out, dpi=300); plt.close()
-    print(f"[Success] Saved MPI vs TCP latency comparison to '{bar_out}'.")
+        x = np.arange(len(present_tiers))
+        width = 0.35
+
+        fig, ax = plt.subplots(figsize=(9, 5), dpi=300)
+        ax.bar(x - width/2, mpi_m, width, label='MPI (shared-mem / IB fabric)',
+               color='steelblue', alpha=0.85)
+        ax.bar(x + width/2, tcp_m, width, label='TCP/IP (IPoIB)',
+               color='tomato', alpha=0.85)
+
+        ax.errorbar(x - width/2, mpi_m, yerr=_iqr_err(mpi_m, mpi_p25, mpi_p75),
+                    fmt='none', color='black', capsize=4, linewidth=1.2)
+        ax.errorbar(x + width/2, tcp_m, yerr=_iqr_err(tcp_m, tcp_p25, tcp_p75),
+                    fmt='none', color='black', capsize=4, linewidth=1.2)
+
+        ax.set_xticks(x)
+        ax.set_xticklabels([TIER_LABELS[t] for t in present_tiers], fontsize=10)
+        ax.set_ylabel(ylabel, fontsize=11)
+        ax.set_title(title, fontsize=11, weight="bold")
+        ax.legend(fontsize=10)
+        ax.grid(axis='y', linestyle=':', alpha=0.5)
+        plt.tight_layout()
+        out = f"{output_prefix}_{out_name}.png"
+        plt.savefig(out, dpi=300); plt.close()
+        print(f"[Success] Saved MPI vs TCP comparison to '{out}'.")
+
+    # 1. Latency per tier
+    _bar_chart(
+        metric='latency_median_us',
+        ylabel="Median One-Way Latency (µs)",
+        out_name="latency_comparison",
+        title="MPI vs TCP/IP (IPoIB) Latency by Locality Tier\n"
+              "(bars = median of pair medians; error bars = IQR)",
+    )
+
+    # 2. Datarate per tier (only if bandwidth data is present)
+    if 'bandwidth_median_gibs' in mpi_df.columns and 'bandwidth_median_gibs' in tcp_df.columns:
+        _bar_chart(
+            metric='bandwidth_median_gibs',
+            ylabel="Median Bidirectional Datarate (GiB/s)",
+            out_name="datarate_comparison",
+            title="MPI vs TCP/IP (IPoIB) Datarate by Locality Tier\n"
+                  "(bars = median of pair medians; error bars = IQR)",
+        )
 
 
 def main():
