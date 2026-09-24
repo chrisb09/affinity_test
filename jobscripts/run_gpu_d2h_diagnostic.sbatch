@@ -57,7 +57,10 @@ date
   echo ""
   echo "--- GPU PCIe ancestry with per-device numa_node (sysfs) ---"
   for busid in $(nvidia-smi --query-gpu=pci.bus_id --format=csv,noheader); do
-    bdf="$busid"
+    # normalize 00000000:1B:00.0 -> 0000:1b:00.0 (sysfs format)
+    b="$(printf '%s' "$busid" | tr 'A-Z' 'a-z')"
+    b="0000:${b#00000000:}"
+    bdf="$b"
     dev="/sys/bus/pci/devices/$bdf"
     depth=0
     echo "Ancestry of $bdf:"
@@ -81,7 +84,7 @@ date
   fi
   echo ""
   echo "--- GPU clocks/performance at start ---"
-  nvidia-smi -q -d PERFORMANCE,CLOCK 2>/dev/null | head -80
+  (nvidia-smi -q -d PERFORMANCE,CLOCK 2>/dev/null | head -80) || true
 } > "$TOPO" 2>&1
 echo "Topology evidence written to $TOPO"
 
@@ -147,7 +150,7 @@ run_one 0 0 -1 0 "rev-n0-auto"
 
 {
   echo "--- GPU clocks/performance at end ---"
-  nvidia-smi -q -d PERFORMANCE,CLOCK 2>/dev/null | head -80
+  (nvidia-smi -q -d PERFORMANCE,CLOCK 2>/dev/null | head -80) || true
 } >> "$TOPO"
 
 echo ""
