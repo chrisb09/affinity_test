@@ -1,0 +1,4 @@
+transport,locality_tier,simplex_pairs,duplex_pairs,simplex_lat_median_us,duplex_lat_median_us,simplex_bw_median_gibs,duplex_bw_median_gibs,duplex_efficiency_ratio
+uds,same_numa,528,528,3.9742499999999996,26.1705,7.51621,5.162850000000001,0.6868953900968707
+uds,same_socket_diff_numa,1728,1728,4.109,23.473,6.80777,4.883430000000001,0.7173318135013376
+uds,cross_socket,2304,2304,7.491375,51.43,3.3568249999999997,1.52198,0.45339867285306806

@@ -1,0 +1,5 @@
+transport,locality_tier,simplex_pairs,duplex_pairs,simplex_lat_median_us,duplex_lat_median_us,simplex_bw_median_gibs,duplex_bw_median_gibs,duplex_efficiency_ratio
+mpi,same_numa,1056,1056,0.24125,0.281,10.1179,22.3574,2.209687781061287
+mpi,same_socket_diff_numa,3456,3456,0.293875,0.3275,9.15453,21.137349999999998,2.30894977677718
+mpi,cross_socket,4608,4608,1.564625,0.7995,7.10003,21.513350000000003,3.0300364928035517
+mpi,cross_node,9216,9216,7.5545,7.064,5.57447,9.58435,1.7193293712227353
