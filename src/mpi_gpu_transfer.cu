@@ -59,8 +59,11 @@ struct DirectionTransferResult {
 
     // Diagnostic metadata (D2H asymmetry rerun campaign)
     int page_policy{-1};            // -1 = auto first-touch from bound CPU; >=0 = forced NUMA node
+    int src_page_policy{-2};        // -2 = use page_policy; otherwise independent source placement
+    int dst_page_policy{-2};        // -2 = use page_policy; otherwise independent destination placement
     int reg_mode{0};                // 0 = cudaHostRegister Portable|Mapped (original), 1 = Portable, 2 = Mapped, 3 = cudaHostAlloc
     char variant[64]{0};            // free-form run label from --variant
+    char transfer_mode[24]{"interleaved"}; // "interleaved" or "d2h-only"
     char src_pages[192]{0};         // per-page NUMA census of h_src before the timed loop ("node:count,...")
     char dst_pages[192]{0};         // per-page NUMA census of h_dst before the timed loop
     char dst_pages_after[192]{0};   // per-page NUMA census of h_dst after the timed loop
@@ -242,7 +245,8 @@ struct HostAlloc {
     bool ok{false};
 };
 
-static HostAlloc allocate_pinned_host_memory(size_t size, int page_node, int reg_mode) {
+static HostAlloc allocate_pinned_host_memory(size_t size, int page_node, int reg_mode,
+                                             bool initialize_full_payload) {
     HostAlloc ha;
     ha.size = size;
     ha.reg_mode = reg_mode;
@@ -268,6 +272,10 @@ static HostAlloc allocate_pinned_host_memory(size_t size, int page_node, int reg
     volatile char* cp = static_cast<volatile char*>(ptr);
     for (size_t off = 0; off < size; off += 4096) {
         cp[off] = static_cast<char>((off ^ (off >> 8)) & 0x7F);
+    }
+    // Initialize the source for deterministic transfers; leave D2H destination cache-cold.
+    if (initialize_full_payload) {
+        std::memset(ptr, 0xA5, size);
     }
 
     cudaError_t err = cudaSuccess;
@@ -321,7 +329,10 @@ static void print_usage(const char* prog) {
               << "  -l, --large-sizes <b1,b2>   Comma-separated large sizes for bandwidth (default: 16777216,67108864,268435456)\n"
               << "  -w, --warmup <count>        Warmup iterations (default: 5)\n"
               << "  -i, --iters <count>         Measured iterations per test (default: 50)\n"
-              << "  -p, --page-numa <node>      Force host buffer pages onto NUMA <node> (-1 = auto first-touch, default)\n"
+              << "  -p, --page-numa <node>      Force both host buffers onto NUMA <node> (-1 = auto first-touch, default)\n"
+              << "      --src-page-numa <node> Independently place H2D source pages (-2 = use --page-numa)\n"
+              << "      --dst-page-numa <node> Independently place D2H destination pages (-2 = use --page-numa)\n"
+              << "      --mode <name>           interleaved (default) or d2h-only timing\n"
               << "  -r, --reg-mode <0-3>        Host pinning mode: 0=Register(Portable|Mapped), 1=Portable, 2=Mapped, 3=cudaHostAlloc (default: 0)\n"
               << "  -v, --variant <label>       Free-form run label written to the CSV (default: empty)\n"
               << "  -a, --append                Append to the output CSV instead of overwriting (header written only for empty files)\n"
@@ -342,7 +353,10 @@ int main(int argc, char** argv) {
     int warmup = 5;
     int iters = 50;
     int page_numa = -1;
+    int src_page_numa = -2;
+    int dst_page_numa = -2;
     int reg_mode = 0;
+    std::string transfer_mode = "interleaved";
     std::string variant_str;
     bool append_csv = false;
 
@@ -362,8 +376,14 @@ int main(int argc, char** argv) {
             iters = std::stoi(argv[++i]);
         } else if ((arg == "-p" || arg == "--page-numa") && i + 1 < argc) {
             page_numa = std::stoi(argv[++i]);
+        } else if (arg == "--src-page-numa" && i + 1 < argc) {
+            src_page_numa = std::stoi(argv[++i]);
+        } else if (arg == "--dst-page-numa" && i + 1 < argc) {
+            dst_page_numa = std::stoi(argv[++i]);
         } else if ((arg == "-r" || arg == "--reg-mode") && i + 1 < argc) {
             reg_mode = std::stoi(argv[++i]);
+        } else if (arg == "--mode" && i + 1 < argc) {
+            transfer_mode = argv[++i];
         } else if ((arg == "-v" || arg == "--variant") && i + 1 < argc) {
             variant_str = argv[++i];
         } else if (arg == "-a" || arg == "--append") {
@@ -375,9 +395,17 @@ int main(int argc, char** argv) {
         }
     }
 
+    if (transfer_mode != "interleaved" && transfer_mode != "d2h-only") {
+        if (rank == 0) std::cerr << "Invalid --mode: " << transfer_mode << "\n";
+        MPI_Finalize();
+        return 2;
+    }
+
     std::vector<int> target_gpus = parse_gpu_list(device_str);
     std::vector<size_t> small_sizes = parse_size_list(small_sizes_str);
     std::vector<size_t> large_sizes = parse_size_list(large_sizes_str);
+    const int resolved_src_page = src_page_numa == -2 ? page_numa : src_page_numa;
+    const int resolved_dst_page = dst_page_numa == -2 ? page_numa : dst_page_numa;
 
     RankCpuInfo local_info;
     local_info.rank = rank;
@@ -533,12 +561,18 @@ int main(int argc, char** argv) {
                 snprintf(r.direction, sizeof(r.direction), "%s", dir);
                 r.iters = iters;
                 r.page_policy = page_numa;
+                r.src_page_policy = resolved_src_page;
+                r.dst_page_policy = resolved_dst_page;
                 r.reg_mode = reg_mode;
                 snprintf(r.variant, sizeof(r.variant), "%s", variant_str.c_str());
+                snprintf(r.transfer_mode, sizeof(r.transfer_mode), "%s", transfer_mode.c_str());
             };
 
             init_res(res_h2d, "H2D");
             init_res(res_d2h, "D2H");
+            if (transfer_mode == "d2h-only") {
+                snprintf(res_h2d.status, sizeof(res_h2d.status), "NOT_RUN (d2h-only)");
+            }
 
             if (err != cudaSuccess) {
                 snprintf(res_h2d.status, sizeof(res_h2d.status), "cudaSetDevice failed: %s", cudaGetErrorString(err));
@@ -549,8 +583,8 @@ int main(int argc, char** argv) {
             }
 
             // Allocate distinct pinned host buffers and device buffers
-            HostAlloc ha_src = allocate_pinned_host_memory(size, page_numa, reg_mode);
-            HostAlloc ha_dst = allocate_pinned_host_memory(size, page_numa, reg_mode);
+            HostAlloc ha_src = allocate_pinned_host_memory(size, resolved_src_page, reg_mode, true);
+            HostAlloc ha_dst = allocate_pinned_host_memory(size, resolved_dst_page, reg_mode, false);
             void* h_src = ha_src.ptr;
             void* h_dst = ha_dst.ptr;
             void* d_dst = nullptr;
@@ -589,6 +623,7 @@ int main(int argc, char** argv) {
             cuda_note_error(cudaMemcpy(d_src, h_src, size, cudaMemcpyHostToDevice),
                             res_h2d.status, "initial H2D populate");
             cuda_note_error(cudaDeviceSynchronize(), res_h2d.status, "initial sync");
+            cuda_note_error(cudaGetLastError(), res_d2h.status, "D2H source initialization");
 
             // Setup CUDA Stream and Events for accurate hardware DMA timing
             cudaStream_t stream;
@@ -599,7 +634,9 @@ int main(int argc, char** argv) {
 
             // Warmup (Counterbalanced interleaved transfers)
             for (int w = 0; w < warmup; ++w) {
-                cudaMemcpyAsync(d_dst, h_src, size, cudaMemcpyHostToDevice, stream);
+                if (transfer_mode == "interleaved") {
+                    cudaMemcpyAsync(d_dst, h_src, size, cudaMemcpyHostToDevice, stream);
+                }
                 cudaMemcpyAsync(h_dst, d_src, size, cudaMemcpyDeviceToHost, stream);
                 cudaStreamSynchronize(stream);
             }
@@ -620,8 +657,22 @@ int main(int argc, char** argv) {
             double size_gib = static_cast<double>(size) / (1024.0 * 1024.0 * 1024.0);
 
             for (int it = 0; it < iters; ++it) {
-                // Alternating / counterbalancing direction order based on iteration to eliminate ordering bias
-                if (it % 2 == 0) {
+                if (transfer_mode == "d2h-only") {
+                    cudaEventRecord(ev_start, stream);
+                    auto t0_d2h = std::chrono::high_resolution_clock::now();
+                    cudaMemcpyAsync(h_dst, d_src, size, cudaMemcpyDeviceToHost, stream);
+                    cudaEventRecord(ev_stop, stream);
+                    cudaStreamSynchronize(stream);
+                    auto t1_d2h = std::chrono::high_resolution_clock::now();
+
+                    float dma_ms = 0.0f;
+                    cudaEventElapsedTime(&dma_ms, ev_start, ev_stop);
+                    double wall_us = std::chrono::duration<double, std::micro>(t1_d2h - t0_d2h).count();
+                    d2h_lats[it] = wall_us;
+                    d2h_dma_lats[it] = dma_ms * 1000.0;
+                    d2h_bws_gibs[it] = size_gib / (wall_us * 1e-6);
+                } else if (it % 2 == 0) {
+                    // Alternating / counterbalancing direction order based on iteration to eliminate ordering bias
                     // H2D first
                     cudaEventRecord(ev_start, stream);
                     auto t0_h2d = std::chrono::high_resolution_clock::now();
@@ -788,7 +839,7 @@ int main(int argc, char** argv) {
         if (need_header) {
             csv << "rank,hostname,cpu_id,cpu_affinity,cpu_numa_node,gpu_id,gpu_pci_bus_id,gpu_pci_numa_node,status,"
                 << "payload_bytes,payload_type,direction,iters,host_buf_numa_node,"
-                << "variant,page_policy,reg_mode,src_pages,dst_pages,dst_pages_after,"
+                << "variant,page_policy,src_page_policy,dst_page_policy,reg_mode,transfer_mode,src_pages,dst_pages,dst_pages_after,"
                 << "lat_min_us,lat_p25_us,lat_median_us,lat_p75_us,lat_iqr_us,lat_max_us,lat_mean_us,lat_stddev_us,"
                 << "bw_gibs_min,bw_gibs_p25,bw_gibs_median,bw_gibs_p75,bw_gibs_iqr,bw_gibs_max,bw_gibs_mean,bw_gibs_stddev,"
                 << "bw_gbps_median,gpu_dma_time_median_us\n";
@@ -802,7 +853,8 @@ int main(int argc, char** argv) {
                 << r.status << "\","
                 << r.payload_bytes << ",\"" << r.payload_type << "\",\"" << r.direction << "\","
                 << r.iters << "," << r.host_buf_numa_node << ",\""
-                << r.variant << "\"," << r.page_policy << "," << r.reg_mode << ",\""
+                << r.variant << "\"," << r.page_policy << "," << r.src_page_policy << ","
+                << r.dst_page_policy << "," << r.reg_mode << ",\"" << r.transfer_mode << "\",\""
                 << r.src_pages << "\",\"" << r.dst_pages << "\",\"" << r.dst_pages_after << "\","
                 << r.lat_min_us << "," << r.lat_p25_us << "," << r.lat_median_us << ","
                 << r.lat_p75_us << "," << r.lat_iqr_us << "," << r.lat_max_us << ","
