@@ -62,5 +62,5 @@ The follow-up isolation job (`sourcecode/affinity_test/jobscripts/run_gpu_d2h_is
 fixes each process to one CPU core and fixes H2D source pages at the GPU's local
 NUMA domain. It varies only the D2H destination pages and compares D2H-only timing
 against the existing interleaved H2D/D2H sequence. D2H-only still performs one
-untimed H2D initialization copy to populate the GPU source buffer. Results will be
-archived under `data/affinity_test/08_gpu_d2h_isolation/` after the jobs complete.
+untimed H2D initialization copy to populate the GPU source buffer. Results are
+archived under `data/affinity_test/08_gpu_d2h_isolation/`.
