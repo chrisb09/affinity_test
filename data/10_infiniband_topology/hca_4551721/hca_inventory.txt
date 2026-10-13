@@ -1,0 +1,4801 @@
+srun: warning: can't honor --ntasks-per-node set to 1 which doesn't match the requested tasks 192 with the maximum number of requested nodes 2. Ignoring --ntasks-per-node.
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### host=n23m0365.hpc.itc.rwth-aachen.de
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### host=n23m0364.hpc.itc.rwth-aachen.de
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### host=n23m0364.hpc.itc.rwth-aachen.de
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### sysfs
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### host=n23m0364.hpc.itc.rwth-aachen.de
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+### host=n23m0364.hpc.itc.rwth-aachen.de
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+### host=n23m0364.hpc.itc.rwth-aachen.de
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+### host=n23m0364.hpc.itc.rwth-aachen.de
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### host=n23m0364.hpc.itc.rwth-aachen.de
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+### host=n23m0364.hpc.itc.rwth-aachen.de
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### host=n23m0364.hpc.itc.rwth-aachen.de
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### host=n23m0364.hpc.itc.rwth-aachen.de
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+### sysfs
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+### sysfs
+### sysfs
+### sysfs
+### sysfs
+### sysfs
+### sysfs
+### sysfs
+### sysfs
+### sysfs
+### sysfs
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea4b92
+	System image GUID: 0x946dae0300ea4b92
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 538
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea4b92
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### host=n23m0364.hpc.itc.rwth-aachen.de
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+### uname=5.14.0-687.41.1.el9_8.x86_64
+### lspci_infiniband
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### ibstat
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### sysfs
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### sysfs
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### sysfs
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+### ibstat
+84:00.0 Infiniband controller: Mellanox Technologies MT2910 Family [ConnectX-7]
+### ibstat
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+### sysfs
+### sysfs
+### sysfs
+### sysfs
+### sysfs
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA 'mlx5_0'
+	CA type: MT4129
+	Number of ports: 1
+	Firmware version: 28.49.1120
+	Hardware version: 0
+	Node GUID: 0x946dae0300ea789a
+	System image GUID: 0x946dae0300ea789a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 563
+		LMC: 0
+		SM lid: 8
+		Capability mask: 0xa751e848
+		Port GUID: 0x946dae0300ea789a
+		Link layer: InfiniBand
+### sysfs
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+CA mlx5_0 fw_ver=28.49.1120 hw_rev=0
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE
+  port 1 rate=200 Gb/sec (2X NDR) state=4: ACTIVE

@@ -1,0 +1,112 @@
+% CLAIX-2023 InfiniBand fat-tree topology (schematic).
+%
+% Two-tier fat-tree derived from `scontrol show topology`:
+%   * Level 1: the spine group `spines1234` aggregates every leaf switch; the
+%     name indicates four physical spine switches.
+%   * Level 0: leaf switches `ibsw00`..`ibsw10`.
+%       - `ibsw00`..`ibsw08` carry the CPU-only nodes (c23ms/c23mm/c23ml).
+%       - `ibsw09`/`ibsw10` carry the accelerated nodes (c23g).
+%   * CPU and GPU nodes attach to different leaf switches, so CPU<->GPU traffic
+%     always crosses the spine (3 switch hops), while two nodes on the same leaf
+%     communicate in a single switch hop.
+%   * Node boxes are intentionally left anonymous (the node-id to switch mapping
+%     is not a contiguous block); the "CPU nodes"/"GPU nodes" labels identify the
+%     two node classes. Every drawn leaf shows its first and last child plus an
+%     ellipsis.
+%
+% Connector convention: a child attaches at its top edge; the parent's end fans
+% across its bottom edge instead of meeting at a single centre point. Using
+% compass bearings (180 = down), a parent with n children spreads its anchors
+% linearly over 135..225 degrees, i.e. 225/180/135 for three children. In TikZ
+% angle terms (0 = east, counter-clockwise) that range is 315..225, so three
+% anchors are 315 (right), 270 (down) and 225 (left).
+%
+% Intended to be \input inside a figure or a standalone document.
+\begin{tikzpicture}[
+  x=1mm, y=1mm, font=\sffamily\fontsize{8}{9.5}\selectfont,
+  >=Stealth,
+  spine/.style={rounded corners=2.5pt, draw=black!70, line width=0.9pt, fill=black!6,
+    minimum width=140mm, minimum height=10mm, align=center, inner sep=1.5pt},
+  leafcpu/.style={rounded corners=2.5pt, draw=blue!55, line width=0.9pt, fill=blue!6,
+    minimum width=17mm, minimum height=8mm, align=center, inner sep=1pt},
+  leafgpu/.style={rounded corners=2.5pt, draw=orange!85, line width=0.9pt, fill=orange!10,
+    minimum width=17mm, minimum height=8mm, align=center, inner sep=1pt},
+  nodecpu/.style={rounded corners=2pt, draw=blue!55, line width=0.8pt, fill=blue!3,
+    minimum width=15mm, minimum height=8mm, inner sep=1pt},
+  nodegpu/.style={rounded corners=2pt, draw=orange!85, line width=0.8pt, fill=orange!8,
+    minimum width=15mm, minimum height=8mm, inner sep=1pt},
+  link/.style={draw=black!55, line width=0.6pt},
+  tree/.style={draw=black!45, line width=0.6pt},
+  path3/.style={draw=red!75!black, line width=1.5pt},
+  path1/.style={draw=green!45!black, line width=1.5pt},
+  tierlabel/.style={font=\sffamily\fontsize{8}{9}\selectfont, text=black!60,
+    anchor=west},
+  annot/.style={font=\sffamily\fontsize{8}{9.5}\selectfont, align=left},
+  ell/.style={font=\sffamily\fontsize{11}{11}\selectfont, text=black!55},
+  hopmark/.style={circle, draw=red!75!black, fill=white, inner sep=0.5pt,
+    font=\sffamily\fontsize{6}{6.5}\selectfont, text=red!75!black},
+  hopmark1/.style={circle, draw=green!45!black, fill=white, inner sep=0.5pt,
+    font=\sffamily\fontsize{6}{6.5}\selectfont, text=green!45!black}
+]
+
+% ---- Level labels ---------------------------------------------------------
+\node[tierlabel] at (0,84) {Level 1};
+\node[tierlabel] at (0,69) {Level 0};
+
+% ---- Spine tier -----------------------------------------------------------
+\node[spine] (spine) at (90,84) {\textbf{spine switches 1--4}};
+
+% ---- Leaf tier ------------------------------------------------------------
+\node[leafcpu] (l0)  at (26,69)  {\texttt{ibsw00}};
+\node[leafcpu] (l8)  at (72,69)  {\texttt{ibsw08}};
+\node[leafgpu] (l9)  at (112,69) {\texttt{ibsw09}};
+\node[leafgpu] (l10) at (154,69) {\texttt{ibsw10}};
+\node[ell] at (49,69) {$\cdots$};
+
+% ---- Node tier (anonymous boxes, first/last child of every drawn leaf) ----
+\node[nodecpu] (cpu1) at (14,54)  {};
+\node[ell]     at (26,54)         {$\cdots$};
+\node[nodecpu] (cpu2) at (38,54)  {};
+\node[nodecpu] (cpu3) at (60,54)  {};
+\node[ell]     at (72,54)         {$\cdots$};
+\node[nodecpu] (cpu4) at (84,54)  {};
+\node[nodegpu] (gpuA) at (100,54) {};
+\node[ell]     at (112,54)        {$\cdots$};
+\node[nodegpu] (gpuB) at (124,54) {};
+\node[nodegpu] (gpuC) at (142,54) {};
+\node[ell]     at (154,54)        {$\cdots$};
+\node[nodegpu] (gpuD) at (166,54) {};
+
+\node[annot, text=blue!55!black, anchor=north] at (49,46) {CPU nodes};
+\node[annot, text=orange!85!black, anchor=north] at (133,46) {GPU nodes};
+
+% ---- Tree connectors (fanned at the parent's bottom edge) -----------------
+% Spine -> four visible leaves: 4 children -> TikZ angles 225/255/285/315.
+\draw[tree] (l0.north)  -- (spine.225);
+\draw[tree] (l8.north)  -- (spine.255);
+\draw[tree] (l9.north)  -- (spine.285);
+\draw[tree] (l10.north) -- (spine.315);
+% Leaves -> their first/last child (TikZ down-left = 225, down = 270, down-right = 315).
+\draw[link] (cpu2.north) -- (l0.315);
+\draw[link] (cpu3.north) -- (l8.225);
+\draw[link] (cpu4.north) -- (l8.315);
+\draw[link] (gpuA.north) -- (l9.225);
+\draw[link] (gpuB.north) -- (l9.315);
+\draw[link] (gpuC.north) -- (l10.225);
+\draw[link] (gpuD.north) -- (l10.315);
+
+% ---- Highlight A: CPU<->GPU 3-hop path (leaf -> spine -> leaf) -------------
+\draw[path3] (cpu1.north) -- (l0.225);
+\draw[path3] (l0.north)   -- (spine.225);
+\draw[path3] (spine.315)  -- (l10.north);
+\draw[path3] (l10.225)    -- (gpuC.north);
+\node[hopmark] at (17,61)  {1};
+\node[hopmark] at (90,77)  {2};
+\node[hopmark] at (146,62) {3};
+
+% ---- Highlight B: intra-leaf 1-hop path -----------------------------------
+\draw[path1] (gpuA.north) -- (l9.225);
+\draw[path1] (gpuB.north) -- (l9.315);
+\node[hopmark1] at (112,61) {1};
+
+\end{tikzpicture}

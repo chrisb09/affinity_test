@@ -1,0 +1,36 @@
+### n23m0014 (leaf ibsw00)
+NodeName=n23m0014 Arch=x86_64 CoresPerSocket=48 
+   CPUAlloc=96 CPUEfctv=96 CPUTot=96 CPULoad=31.10
+   AvailableFeatures=sapphire,spr8468,hostok,hpcwork,Rocky9
+   ActiveFeatures=sapphire,spr8468,hostok,hpcwork,Rocky9
+   Gres=(null)
+   NodeAddr=n23m0014 NodeHostName=n23m0014 Version=26.05.4
+   OS=Linux 5.14.0-687.41.1.el9_8.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Aug 20 15:28:10 UTC 2026 
+   RealMemory=500800 AllocMem=243712 FreeMem=265459 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=1 TmpDisk=0 Weight=100533 Owner=N/A MCS_label=N/A
+   Partitions=c23ms,c23ms_low,c23mm,c23mm_low 
+   BootTime=2026-08-24T11:14:14 SlurmdStartTime=2026-09-30T11:34:50
+   LastBusyTime=2026-09-30T11:53:41 ResumeAfterTime=None SuspendTime=INFINITE
+   CfgTRES=cpu=96,mem=500800M,billing=197
+   AllocTRES=cpu=96,mem=238G
+   CurrentWatts=392 AveWatts=534
+
+
+### n23m0019 (leaf ibsw00)
+NodeName=n23m0019 Arch=x86_64 CoresPerSocket=48 
+   CPUAlloc=96 CPUEfctv=96 CPUTot=96 CPULoad=33.21
+   AvailableFeatures=sapphire,spr8468,hostok,hpcwork,Rocky9
+   ActiveFeatures=sapphire,spr8468,hostok,hpcwork,Rocky9
+   Gres=(null)
+   NodeAddr=n23m0019 NodeHostName=n23m0019 Version=26.05.4
+   OS=Linux 5.14.0-687.41.1.el9_8.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Aug 20 15:28:10 UTC 2026 
+   RealMemory=500800 AllocMem=243712 FreeMem=315983 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=1 TmpDisk=0 Weight=100533 Owner=N/A MCS_label=N/A
+   Partitions=c23ms,c23ms_low,c23mm,c23mm_low 
+   BootTime=2026-08-24T11:14:25 SlurmdStartTime=2026-09-30T11:34:50
+   LastBusyTime=2026-09-30T12:00:19 ResumeAfterTime=None SuspendTime=INFINITE
+   CfgTRES=cpu=96,mem=500800M,billing=197
+   AllocTRES=cpu=96,mem=238G
+   CurrentWatts=564 AveWatts=609
+
+

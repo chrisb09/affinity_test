@@ -23,6 +23,9 @@ target_link_libraries(uds_pair_latency PRIVATE MPI::MPI_CXX)
 add_executable(mpi_gpu_transfer src/mpi_gpu_transfer.cu)
 target_link_libraries(mpi_gpu_transfer PRIVATE MPI::MPI_CXX CUDA::cudart numa)
 
+add_executable(mpi_cuda_aware_transfer src/mpi_cuda_aware_transfer.cu)
+target_link_libraries(mpi_cuda_aware_transfer PRIVATE MPI::MPI_CXX CUDA::cudart numa)
+
 # 02. P2P Duplex (Simultaneous Bidirectional) Benchmarks
 add_executable(mpi_duplex_latency src/mpi_duplex_latency.cpp)
 target_link_libraries(mpi_duplex_latency PRIVATE MPI::MPI_CXX)
